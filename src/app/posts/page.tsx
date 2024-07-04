@@ -30,7 +30,7 @@ export default function PostsPage({
     placeholderData: keepPreviousData,
   });
   return (
-    <div className="divide-y h-full divide-gray-200 dark:divide-gray-700 space-y-6 ">
+    <div className="divide-y h-full divide-gray-200 dark:divide-gray-700 space-y-6 pb-10 ">
       <div className="">
         <h1 className="text-3xl font-bold text-neutral-600 dark:text-white">
           Posts page
