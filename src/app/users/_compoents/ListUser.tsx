@@ -72,7 +72,7 @@ export default function ListUser({
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 p-2 lg:overflow-y-auto">
       {users.map((user) => (
         <div
-          className="rounded-lg border w-full p-3 space-y-3 hover:scale-105 duration-300 relative"
+          className="rounded-lg border w-full p-3 hover:scale-105 duration-300 relative"
           key={user.id}
           onClick={() => {
             setSelectedUser(user);

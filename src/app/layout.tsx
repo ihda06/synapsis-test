@@ -37,7 +37,7 @@ export default function RootLayout({
           >
             <Navbar />
             <ThemeToggle className="absolute top-5 right-5 hover:scale-150 duration-300 cursor-pointer active:translate-x-1 active:translate-y-1 active:shadow-md" />
-            <main className="min-h-screen lg:px-72 px-10 py-16 lg:h-screen">
+            <main className="lg:max-h-screen lg:px-72 px-10 py-16  lg:h-screen lg:overflow-y-hidden">
               {children}
               <Toaster />
             </main>
